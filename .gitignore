@@ -1,0 +1,29 @@
+# Ignore everything by default in these folders
+data/*
+models/*
+reports/*
+reports/figures/*
+
+# But keep .gitkeep files
+!data/.gitkeep
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+!models/.gitkeep
+!reports/.gitkeep
+!reports/figures/.gitkeep
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db

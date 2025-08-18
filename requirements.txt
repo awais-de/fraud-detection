@@ -1,0 +1,20 @@
+# Core Data & Math Libraries
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+xgboost>=1.7.0
+imbalanced-learn>=0.11.0
+
+# Visualization
+matplotlib>=3.8.0
+seaborn>=0.12.0
+
+# Utilities
+joblib>=1.3.0
+pyyaml>=6.0.0
+
+# (Optional) Interactive exploration
+jupyter>=1.0.0
+notebook>=7.0.0
